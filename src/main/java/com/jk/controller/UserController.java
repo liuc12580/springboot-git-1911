@@ -8,7 +8,7 @@ public class UserController {
 
     @RequestMapping("/hello")
     public void hello() {
-
+        System.out.println("hello world");
     }
 
     @RequestMapping("/hi")
